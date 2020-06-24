@@ -9,9 +9,10 @@ import { AuthenticateComponent } from './views/authenticate/authenticate.compone
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import { DashboardComponent } from './views/dashboard/dashboard.component';
 
 @NgModule({
-  declarations: [AppComponent, AuthenticateComponent],
+  declarations: [AppComponent, AuthenticateComponent, DashboardComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
