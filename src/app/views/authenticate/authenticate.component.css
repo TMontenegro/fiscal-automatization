@@ -1,0 +1,15 @@
+.authenticate {
+  height: 100vh;
+  background: linear-gradient(
+    50deg,
+    var(--celadon) 0%,
+    var(--pantone) 35%,
+    var(--hookers) 100%
+  );
+}
+
+.authenticate-form {
+  width: 500px;
+  height: 100vh;
+  background-color: #fff;
+}
