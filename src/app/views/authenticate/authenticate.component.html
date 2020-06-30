@@ -1,5 +1,8 @@
 <section class="authenticate">
   <div class="auth-container">
+    <div class="logo">
+      <img src="../../../assets/logo.png" alt="">
+    </div>
     <form class="auth-form" action="">
       <mat-form-field appearance="outline">
         <mat-label>E-mail</mat-label>
@@ -20,12 +23,12 @@
       <div class="remember-me">
         <mat-checkbox color="primary">Lembrar-me</mat-checkbox>
       </div>
-      <a href="">Esqueceu a senha?</a>
+      <a routerLink="/forgot-password" routerLinkActive="active">Esqueceu a senha?</a>
     </div>
 
     <div class="auth-footer">
       <span>Ainda não tem uma conta? </span>
-      <a href="">Registre-se!</a>
+      <a routerLink="/register" routerLinkActive="active">Registre-se!</a>
     </div>
   </div>
 </section>

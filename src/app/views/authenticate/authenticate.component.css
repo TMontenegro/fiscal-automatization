@@ -20,7 +20,7 @@
 }
 
 .auth-options {
-  margin-top: 25px;
+  margin: 25px 0 50px 0;
   display: flex;
   justify-content: space-between;
   width: 70%;
@@ -45,6 +45,10 @@
   height: 50px;
   background-color: var(--pantone);
   color: var(--white);
+}
+
+.logo {
+  margin-bottom: 50px;
 }
 
 mat-form-field {
