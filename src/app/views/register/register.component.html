@@ -1,1 +1,40 @@
-<p>register works!</p>
+<section class="register">
+  <div class="register-container">
+    <div class="logo">
+      <img src="../../../assets/logo.png" alt="" />
+    </div>
+    <form class="register-form" action="">
+      <mat-form-field appearance="outline">
+        <mat-label>Nome</mat-label>
+        <input matInput type="email" placeholder="Nome Sobrenome" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>E-mail</mat-label>
+        <input matInput type="email" placeholder="email@email.com" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Senha</mat-label>
+        <input matInput type="password" placeholder="•••••••••" />
+      </mat-form-field>
+
+      <div class="terms-of-use">
+        <mat-checkbox color="primary"></mat-checkbox>
+        <span class="terms-of-use__descpription"
+          >Ao criar uma conta você aceita com nossos termos de uso e nossa
+          politica de privacidade</span
+        >
+      </div>
+
+      <button mat-raised-button class="btn">
+        Registrar
+      </button>
+    </form>
+
+    <div class="register-footer">
+      <span>Já tem uma conta? </span>
+      <a routerLink="/" routerLinkActive="active">Acesse já!</a>
+    </div>
+  </div>
+</section>

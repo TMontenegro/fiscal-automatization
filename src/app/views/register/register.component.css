@@ -1,0 +1,67 @@
+.register {
+  height: 100vh;
+  background: linear-gradient(
+    50deg,
+    var(--celadon) 0%,
+    var(--pantone) 35%,
+    var(--hookers) 100%
+  );
+}
+
+.register-container {
+  width: 500px;
+  height: 100vh;
+  background-color: var(--white);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.terms-of-use {
+  margin-bottom: 35px;
+  display: flex;
+}
+
+.terms-of-use__descpription {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.mat-checkbox-layout{
+  vertical-align: unset !important;
+  display: unset !important;
+  white-space: unset !important;
+}
+
+.register-form {
+  width: 70%;
+}
+
+.register-footer {
+  position: absolute;
+  bottom: 0;
+  margin: 50px 0px;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  background-color: var(--pantone);
+  color: var(--white);
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--pantone);
+  font-weight: bold;
+}
