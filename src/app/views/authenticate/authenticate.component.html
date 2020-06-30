@@ -1,7 +1,7 @@
 <section class="authenticate">
   <div class="auth-container">
     <div class="logo">
-      <img src="../../../assets/logo.png" alt="">
+      <img src="../../../assets/logo.png" alt="" />
     </div>
     <form class="auth-form" action="">
       <mat-form-field appearance="outline">
@@ -11,7 +11,7 @@
 
       <mat-form-field appearance="outline">
         <mat-label>Senha</mat-label>
-        <input matInput type="password" />
+        <input matInput type="password" placeholder="•••••••••" />
       </mat-form-field>
 
       <button mat-raised-button class="btn" (click)="navigateToDashboard()">
@@ -23,7 +23,9 @@
       <div class="remember-me">
         <mat-checkbox color="primary">Lembrar-me</mat-checkbox>
       </div>
-      <a routerLink="/forgot-password" routerLinkActive="active">Esqueceu a senha?</a>
+      <a routerLink="/forgot-password" routerLinkActive="active">
+        Esqueceu a senha?
+      </a>
     </div>
 
     <div class="auth-footer">
