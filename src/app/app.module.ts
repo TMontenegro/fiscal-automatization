@@ -13,8 +13,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { RegisterComponent } from './views/register/register.component';
 import { ForgotPasswordComponent } from './views/forgot-password/forgot-password.component';
+import { MainNavComponent } from './components/main-nav/main-nav.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 @NgModule({
-  declarations: [AppComponent, AuthenticateComponent, DashboardComponent, RegisterComponent, ForgotPasswordComponent],
+  declarations: [AppComponent, AuthenticateComponent, DashboardComponent, RegisterComponent, ForgotPasswordComponent, MainNavComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -23,6 +29,11 @@ import { ForgotPasswordComponent } from './views/forgot-password/forgot-password
     MatInputModule,
     MatButtonModule,
     MatCheckboxModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
